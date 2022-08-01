@@ -1,0 +1,7 @@
+JOB A nodo_1.condor
+JOB B nodo_2.condor
+JOB C nodo_3_1.condor
+JOB D nodo_3.condor
+JOB E nodo_4.condor
+JOB F nodo_5.condor
+JOB G nodo_6.condor
