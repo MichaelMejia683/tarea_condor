@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+cat header.csv datos-adultos-us.csv > adultos-us.csv 

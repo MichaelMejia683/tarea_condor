@@ -1,0 +1,3 @@
+Promedio de edades: Reporte de personas afrodecendientes femeninas que ganan >50K y son esposas: 51
+Reporte del promedio de horas laboradas por semana por razas masculinas:  Personas Blancas: 41.1611
+Personas Negras: 38.109

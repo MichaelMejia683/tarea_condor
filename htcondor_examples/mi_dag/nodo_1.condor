@@ -1,0 +1,10 @@
+executable   = /bin/wget
+arguments    = -O datos-adultos-us.csv http://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data
+
+output       = output.$(cluster).submit
+error        = error.$(cluster).submit
+log          = log.submit
+
+should_transfer_files = yes
+
+queue

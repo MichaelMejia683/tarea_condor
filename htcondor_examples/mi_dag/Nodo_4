@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+awk -F ',' '{print $1,$4,$5,$9,$15}' adultos-us.csv > reporte_1.txt

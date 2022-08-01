@@ -1,0 +1,14 @@
+executable   = /bin/bash
+arguments    = Nodo_2
+
+transfer_input_files = Nodo_2, datos-adultos-us.csv
+
+output       = output.$(cluster).submit
+error        = error.$(cluster).submit
+log          = log.submit
+
+should_transfer_files = yes
+
+queue
+
+

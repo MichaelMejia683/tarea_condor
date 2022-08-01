@@ -1,0 +1,26 @@
+version: "3.1"
+
+services:
+  cm:
+    image: josanabr/htcondor-central-manager:9.9.0
+    hostname: cm.demo.org
+    command: sh -c "condor_master && bash"
+    stdin_open: true
+    tty: true
+
+  access:
+    image: josanabr/htcondor-submit:9.9.3
+    hostname: access.demo.org
+    command: sh -c "condor_master && bash"
+    stdin_open: true
+    tty: true
+    volumes: 
+      - ./htcondor_examples:/htcondor_examples
+
+  exe01:
+    image: josanabr/htcondor-execute:9.9.0
+    hostname: exe01.demo.org
+    command: sh -c "condor_master && bash"
+    stdin_open: true
+    tty: true
+

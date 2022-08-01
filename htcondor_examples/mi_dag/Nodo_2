@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+wc -l datos-adultos-us.csv >> estadistica.txt
+grep ", ?," datos-adultos-us.csv | wc -l >> estadistica.txt
+sed -i "s/, ?,/,,/g" datos-adultos-us.csv

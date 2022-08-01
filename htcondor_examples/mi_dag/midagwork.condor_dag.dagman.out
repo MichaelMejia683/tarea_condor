@@ -1,0 +1,290 @@
+07/31/22 04:27:45 ******************************************************
+07/31/22 04:27:45 ** condor_scheduniv_exec.131.0 (CONDOR_DAGMAN) STARTING UP
+07/31/22 04:27:45 ** /usr/bin/condor_dagman
+07/31/22 04:27:45 ** SubsystemInfo: name=DAGMAN type=DAGMAN(10) class=CLIENT(2)
+07/31/22 04:27:45 ** Configuration: subsystem:DAGMAN local:<NONE> class:CLIENT
+07/31/22 04:27:45 ** $CondorVersion: 9.9.0 2022-05-28 BuildID: 589289 PackageID: 9.9.0-1 $
+07/31/22 04:27:45 ** $CondorPlatform: x86_64_CentOS7 $
+07/31/22 04:27:45 ** PID = 90
+07/31/22 04:27:45 ** Log last touched time unavailable (No such file or directory)
+07/31/22 04:27:45 ******************************************************
+07/31/22 04:27:45 Using config source: /etc/condor/condor_config
+07/31/22 04:27:45 Using local config sources: 
+07/31/22 04:27:45    /etc/condor/config.d/01-submit.config
+07/31/22 04:27:45    /etc/condor/condor_config.local
+07/31/22 04:27:45 config Macros = 66, Sorted = 66, StringBytes = 1836, TablesBytes = 2424
+07/31/22 04:27:45 CLASSAD_CACHING is ENABLED
+07/31/22 04:27:45 Daemon Log is logging: D_ALWAYS D_ERROR D_STATUS
+07/31/22 04:27:45 DaemonCore: No command port requested.
+07/31/22 04:27:45 DAGMAN_USE_STRICT setting: 1
+07/31/22 04:27:45 DAGMAN_VERBOSITY setting: 3
+07/31/22 04:27:45 DAGMAN_DEBUG_CACHE_SIZE setting: 5242880
+07/31/22 04:27:45 DAGMAN_DEBUG_CACHE_ENABLE setting: False
+07/31/22 04:27:45 DAGMAN_SUBMIT_DELAY setting: 0
+07/31/22 04:27:45 DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+07/31/22 04:27:45 DAGMAN_STARTUP_CYCLE_DETECT setting: False
+07/31/22 04:27:45 DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 100
+07/31/22 04:27:45 DAGMAN_AGGRESSIVE_SUBMIT setting: False
+07/31/22 04:27:45 DAGMAN_USER_LOG_SCAN_INTERVAL setting: 5
+07/31/22 04:27:45 DAGMAN_QUEUE_UPDATE_INTERVAL setting: 300
+07/31/22 04:27:45 DAGMAN_DEFAULT_PRIORITY setting: 0
+07/31/22 04:27:45 DAGMAN_SUPPRESS_NOTIFICATION setting: True
+07/31/22 04:27:45 allow_events (DAGMAN_ALLOW_EVENTS) setting: 114
+07/31/22 04:27:45 DAGMAN_RETRY_SUBMIT_FIRST setting: True
+07/31/22 04:27:45 DAGMAN_RETRY_NODE_FIRST setting: False
+07/31/22 04:27:45 DAGMAN_MAX_JOBS_IDLE setting: 1000
+07/31/22 04:27:45 DAGMAN_MAX_JOBS_SUBMITTED setting: 0
+07/31/22 04:27:45 DAGMAN_MAX_PRE_SCRIPTS setting: 20
+07/31/22 04:27:45 DAGMAN_MAX_POST_SCRIPTS setting: 20
+07/31/22 04:27:45 DAGMAN_MAX_HOLD_SCRIPTS setting: 20
+07/31/22 04:27:45 DAGMAN_MUNGE_NODE_NAMES setting: True
+07/31/22 04:27:45 DAGMAN_PROHIBIT_MULTI_JOBS setting: False
+07/31/22 04:27:45 DAGMAN_SUBMIT_DEPTH_FIRST setting: False
+07/31/22 04:27:45 DAGMAN_ALWAYS_RUN_POST setting: False
+07/31/22 04:27:45 DAGMAN_CONDOR_SUBMIT_EXE setting: /usr/bin/condor_submit
+07/31/22 04:27:45 DAGMAN_USE_DIRECT_SUBMIT setting: True
+07/31/22 04:27:45 DAGMAN_ABORT_DUPLICATES setting: True
+07/31/22 04:27:45 DAGMAN_ABORT_ON_SCARY_SUBMIT setting: True
+07/31/22 04:27:45 DAGMAN_PENDING_REPORT_INTERVAL setting: 600
+07/31/22 04:27:45 DAGMAN_AUTO_RESCUE setting: True
+07/31/22 04:27:45 DAGMAN_MAX_RESCUE_NUM setting: 100
+07/31/22 04:27:45 DAGMAN_WRITE_PARTIAL_RESCUE setting: True
+07/31/22 04:27:45 DAGMAN_DEFAULT_NODE_LOG setting: @(DAG_DIR)/@(DAG_FILE).nodes.log
+07/31/22 04:27:45 DAGMAN_GENERATE_SUBDAG_SUBMITS setting: True
+07/31/22 04:27:45 DAGMAN_MAX_JOB_HOLDS setting: 100
+07/31/22 04:27:45 DAGMAN_HOLD_CLAIM_TIME setting: 20
+07/31/22 04:27:45 ALL_DEBUG setting: 
+07/31/22 04:27:45 DAGMAN_DEBUG setting: 
+07/31/22 04:27:45 DAGMAN_SUPPRESS_JOB_LOGS setting: False
+07/31/22 04:27:45 DAGMAN_REMOVE_NODE_JOBS setting: True
+07/31/22 04:27:45 DAGMAN will adjust edges after parsing
+07/31/22 04:27:45 argv[0] == "condor_scheduniv_exec.131.0"
+07/31/22 04:27:45 argv[1] == "-Lockfile"
+07/31/22 04:27:45 argv[2] == "midagwork.condor_dag.lock"
+07/31/22 04:27:45 argv[3] == "-AutoRescue"
+07/31/22 04:27:45 argv[4] == "1"
+07/31/22 04:27:45 argv[5] == "-DoRescueFrom"
+07/31/22 04:27:45 argv[6] == "0"
+07/31/22 04:27:45 argv[7] == "-Dag"
+07/31/22 04:27:45 argv[8] == "midagwork.condor_dag"
+07/31/22 04:27:45 argv[9] == "-Suppress_notification"
+07/31/22 04:27:45 argv[10] == "-CsdVersion"
+07/31/22 04:27:45 argv[11] == "$CondorVersion: 9.9.0 2022-05-28 BuildID: 589289 PackageID: 9.9.0-1 $"
+07/31/22 04:27:45 argv[12] == "-Dagman"
+07/31/22 04:27:45 argv[13] == "/usr/bin/condor_dagman"
+07/31/22 04:27:45 Can't open directory "/etc/condor/passwords.d" as PRIV_ROOT, errno: 13 (Permission denied)
+07/31/22 04:27:45 Can't open directory "/etc/condor/passwords.d" as PRIV_ROOT, errno: 13 (Permission denied)
+07/31/22 04:27:45 TOKEN: No token found.
+07/31/22 04:27:45 Workflow batch-id: <131.0>
+07/31/22 04:27:45 Workflow batch-name: <midagwork.condor_dag+131>
+07/31/22 04:27:45 Workflow accounting_group: <>
+07/31/22 04:27:45 Workflow accounting_group_user: <>
+07/31/22 04:27:45 Warning: failed to get attribute DAGNodeName
+07/31/22 04:27:45 DAGMAN_LOG_ON_NFS_IS_ERROR setting: False
+07/31/22 04:27:45 Default node log file is: </htcondor_examples/mi_dag/./midagwork.condor_dag.nodes.log>
+07/31/22 04:27:45 DAG Lockfile will be written to midagwork.condor_dag.lock
+07/31/22 04:27:45 DAG Input file is midagwork.condor_dag
+07/31/22 04:27:45 Parsing 1 dagfiles
+07/31/22 04:27:45 Parsing midagwork.condor_dag ...
+07/31/22 04:27:45 Adjusting edges
+07/31/22 04:27:45 Dag contains 7 total jobs
+07/31/22 04:27:45 Bootstrapping...
+07/31/22 04:27:45 Number of pre-completed nodes: 0
+07/31/22 04:27:45 MultiLogFiles: truncating log file /htcondor_examples/mi_dag/./midagwork.condor_dag.nodes.log
+07/31/22 04:27:45 DAG status: 0 (DAG_STATUS_OK)
+07/31/22 04:27:45 Of 7 nodes total:
+07/31/22 04:27:45  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/31/22 04:27:45   ===     ===      ===     ===     ===        ===      ===
+07/31/22 04:27:45     0       0        0       0       7          0        0
+07/31/22 04:27:45 0 job proc(s) currently held
+07/31/22 04:27:45 DAGMan Runtime Statistics: [ EventCycleTimeCount = 0.0; EventCycleTimeSum = 0.0; LogProcessCycleTimeCount = 0.0; LogProcessCycleTimeSum = 0.0; SleepCycleTimeCount = 0.0; SleepCycleTimeSum = 0.0; SubmitCycleTimeCount = 0.0; SubmitCycleTimeSum = 0.0; ]
+07/31/22 04:27:45 Registering condor_event_timer...
+07/31/22 04:27:46 Submitting HTCondor Node A job(s)...
+07/31/22 04:27:46 Submitting node A from file nodo_1.condor using direct job submission
+07/31/22 04:27:46 Submit warning: Submit:0:the line 'RETRY = 0' was unused by DAGMAN. Is it a typo?
+|Submit:0:the line 'JOB = A' was unused by DAGMAN. Is it a typo?
+07/31/22 04:27:46 	assigned HTCondor ID (132.0.0)
+07/31/22 04:27:46 Submitting HTCondor Node B job(s)...
+07/31/22 04:27:46 Submitting node B from file nodo_2.condor using direct job submission
+07/31/22 04:27:46 Submit warning: Submit:0:the line 'RETRY = 0' was unused by DAGMAN. Is it a typo?
+|Submit:0:the line 'JOB = B' was unused by DAGMAN. Is it a typo?
+07/31/22 04:27:46 	assigned HTCondor ID (133.0.0)
+07/31/22 04:27:46 Submitting HTCondor Node C job(s)...
+07/31/22 04:27:46 Submitting node C from file nodo_3_1.condor using direct job submission
+07/31/22 04:27:46 Submit warning: Submit:0:the line 'RETRY = 0' was unused by DAGMAN. Is it a typo?
+|Submit:0:the line 'JOB = C' was unused by DAGMAN. Is it a typo?
+07/31/22 04:27:46 	assigned HTCondor ID (134.0.0)
+07/31/22 04:27:46 Submitting HTCondor Node D job(s)...
+07/31/22 04:27:46 Submitting node D from file nodo_3.condor using direct job submission
+07/31/22 04:27:46 Submit warning: Submit:0:the line 'RETRY = 0' was unused by DAGMAN. Is it a typo?
+|Submit:0:the line 'JOB = D' was unused by DAGMAN. Is it a typo?
+07/31/22 04:27:46 	assigned HTCondor ID (135.0.0)
+07/31/22 04:27:46 Submitting HTCondor Node E job(s)...
+07/31/22 04:27:46 Submitting node E from file nodo_4.condor using direct job submission
+07/31/22 04:27:46 Submit warning: Submit:0:the line 'RETRY = 0' was unused by DAGMAN. Is it a typo?
+|Submit:0:the line 'JOB = E' was unused by DAGMAN. Is it a typo?
+07/31/22 04:27:46 	assigned HTCondor ID (136.0.0)
+07/31/22 04:27:46 Submitting HTCondor Node F job(s)...
+07/31/22 04:27:46 Submitting node F from file nodo_5.condor using direct job submission
+07/31/22 04:27:46 Submit warning: Submit:0:the line 'RETRY = 0' was unused by DAGMAN. Is it a typo?
+|Submit:0:the line 'JOB = F' was unused by DAGMAN. Is it a typo?
+07/31/22 04:27:46 	assigned HTCondor ID (137.0.0)
+07/31/22 04:27:46 Submitting HTCondor Node G job(s)...
+07/31/22 04:27:46 Submitting node G from file nodo_6.condor using direct job submission
+07/31/22 04:27:46 Submit warning: Submit:0:the line 'RETRY = 0' was unused by DAGMAN. Is it a typo?
+|Submit:0:the line 'JOB = G' was unused by DAGMAN. Is it a typo?
+07/31/22 04:27:46 	assigned HTCondor ID (138.0.0)
+07/31/22 04:27:46 Just submitted 7 jobs this cycle...
+07/31/22 04:27:46 DAG status: 0 (DAG_STATUS_OK)
+07/31/22 04:27:46 Of 7 nodes total:
+07/31/22 04:27:46  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/31/22 04:27:46   ===     ===      ===     ===     ===        ===      ===
+07/31/22 04:27:46     0       0        7       0       0          0        0
+07/31/22 04:27:46 0 job proc(s) currently held
+07/31/22 04:27:46 DAGMan Runtime Statistics: [ EventCycleTimeCount = 0.0; EventCycleTimeSum = 0.0; LogProcessCycleTimeCount = 0.0; LogProcessCycleTimeSum = 0.0; SleepCycleTimeCount = 0.0; SleepCycleTimeSum = 0.0; SubmitCycleTimeAvg = 0.1255168914794922; SubmitCycleTimeCount = 1.0; SubmitCycleTimeMax = 0.1255168914794922; SubmitCycleTimeMin = 0.1255168914794922; SubmitCycleTimeStd = 0.1255168914794922; SubmitCycleTimeSum = 0.1255168914794922; ]
+07/31/22 04:27:51 Currently monitoring 1 HTCondor log file(s)
+07/31/22 04:27:51 Reassigning the id of job A from (132.0.0) to (132.0.0)
+07/31/22 04:27:51 Event: ULOG_SUBMIT for HTCondor Node A (132.0.0) {07/31/22 04:27:46}
+07/31/22 04:27:51 Number of idle job procs: 1
+07/31/22 04:27:51 Reassigning the id of job B from (133.0.0) to (133.0.0)
+07/31/22 04:27:51 Event: ULOG_SUBMIT for HTCondor Node B (133.0.0) {07/31/22 04:27:46}
+07/31/22 04:27:51 Number of idle job procs: 2
+07/31/22 04:27:51 Reassigning the id of job C from (134.0.0) to (134.0.0)
+07/31/22 04:27:51 Event: ULOG_SUBMIT for HTCondor Node C (134.0.0) {07/31/22 04:27:46}
+07/31/22 04:27:51 Number of idle job procs: 3
+07/31/22 04:27:51 Reassigning the id of job D from (135.0.0) to (135.0.0)
+07/31/22 04:27:51 Event: ULOG_SUBMIT for HTCondor Node D (135.0.0) {07/31/22 04:27:46}
+07/31/22 04:27:51 Number of idle job procs: 4
+07/31/22 04:27:51 Reassigning the id of job E from (136.0.0) to (136.0.0)
+07/31/22 04:27:51 Event: ULOG_SUBMIT for HTCondor Node E (136.0.0) {07/31/22 04:27:46}
+07/31/22 04:27:51 Number of idle job procs: 5
+07/31/22 04:27:51 Reassigning the id of job F from (137.0.0) to (137.0.0)
+07/31/22 04:27:51 Event: ULOG_SUBMIT for HTCondor Node F (137.0.0) {07/31/22 04:27:46}
+07/31/22 04:27:51 Number of idle job procs: 6
+07/31/22 04:27:51 Reassigning the id of job G from (138.0.0) to (138.0.0)
+07/31/22 04:27:51 Event: ULOG_SUBMIT for HTCondor Node G (138.0.0) {07/31/22 04:27:46}
+07/31/22 04:27:51 Number of idle job procs: 7
+07/31/22 04:28:11 Currently monitoring 1 HTCondor log file(s)
+07/31/22 04:28:11 Event: ULOG_EXECUTE for HTCondor Node A (132.0.0) {07/31/22 04:28:07}
+07/31/22 04:28:11 Number of idle job procs: 6
+07/31/22 04:28:21 Currently monitoring 1 HTCondor log file(s)
+07/31/22 04:28:21 Event: ULOG_JOB_TERMINATED for HTCondor Node A (132.0.0) {07/31/22 04:28:18}
+07/31/22 04:28:21 Number of idle job procs: 6
+07/31/22 04:28:21 Node A job proc (132.0.0) completed successfully.
+07/31/22 04:28:21 Node A job completed
+07/31/22 04:28:21 Event: ULOG_EXECUTE for HTCondor Node B (133.0.0) {07/31/22 04:28:20}
+07/31/22 04:28:21 Number of idle job procs: 5
+07/31/22 04:28:21 DAG status: 0 (DAG_STATUS_OK)
+07/31/22 04:28:21 Of 7 nodes total:
+07/31/22 04:28:21  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/31/22 04:28:21   ===     ===      ===     ===     ===        ===      ===
+07/31/22 04:28:21     1       0        6       0       0          0        0
+07/31/22 04:28:21 0 job proc(s) currently held
+07/31/22 04:28:21 DAGMan Runtime Statistics: [ EventCycleTimeAvg = 0.01819900103977748; EventCycleTimeCount = 7.0; EventCycleTimeMax = 0.1257171630859375; EventCycleTimeMin = 1.9073486328125E-05; EventCycleTimeStd = 0.04741289144302688; EventCycleTimeSum = 0.1273930072784424; LogProcessCycleTimeAvg = 0.0006171067555745443; LogProcessCycleTimeCount = 3.0; LogProcessCycleTimeMax = 0.001114130020141602; LogProcessCycleTimeMin = 0.0003030300140380859; LogProcessCycleTimeStd = 0.0004353996758060573; LogProcessCycleTimeSum = 0.001851320266723633; SleepCycleTimeAvg = 5.004958731787545; SleepCycleTimeCount = 7.0; SleepCycleTimeMax = 5.006003141403198; SleepCycleTimeMin = 5.003670930862427; SleepCycleTimeStd = 0.0009808705967640841; SleepCycleTimeSum = 35.03471112251282; SubmitCycleTimeAvg = 0.0156969428062439; SubmitCycleTimeCount = 8.0; SubmitCycleTimeMax = 0.1255168914794922; SubmitCycleTimeMin = 5.960464477539062E-06; SubmitCycleTimeStd = 0.04437396028139969; SubmitCycleTimeSum = 0.1255755424499512; ]
+07/31/22 04:28:26 Currently monitoring 1 HTCondor log file(s)
+07/31/22 04:28:26 Event: ULOG_JOB_TERMINATED for HTCondor Node B (133.0.0) {07/31/22 04:28:21}
+07/31/22 04:28:26 Number of idle job procs: 5
+07/31/22 04:28:26 Node B job proc (133.0.0) completed successfully.
+07/31/22 04:28:26 Node B job completed
+07/31/22 04:28:26 Event: ULOG_EXECUTE for HTCondor Node C (134.0.0) {07/31/22 04:28:23}
+07/31/22 04:28:26 Number of idle job procs: 4
+07/31/22 04:28:26 Event: ULOG_JOB_TERMINATED for HTCondor Node C (134.0.0) {07/31/22 04:28:25}
+07/31/22 04:28:26 Number of idle job procs: 4
+07/31/22 04:28:26 Node C job proc (134.0.0) completed successfully.
+07/31/22 04:28:26 Node C job completed
+07/31/22 04:28:26 DAG status: 0 (DAG_STATUS_OK)
+07/31/22 04:28:26 Of 7 nodes total:
+07/31/22 04:28:26  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/31/22 04:28:26   ===     ===      ===     ===     ===        ===      ===
+07/31/22 04:28:26     3       0        4       0       0          0        0
+07/31/22 04:28:26 0 job proc(s) currently held
+07/31/22 04:28:26 DAGMan Runtime Statistics: [ EventCycleTimeAvg = 0.01599186658859253; EventCycleTimeCount = 8.0; EventCycleTimeMax = 0.1257171630859375; EventCycleTimeMin = 1.9073486328125E-05; EventCycleTimeStd = 0.04433749530448005; EventCycleTimeSum = 0.1279349327087402; LogProcessCycleTimeAvg = 0.0006120800971984863; LogProcessCycleTimeCount = 4.0; LogProcessCycleTimeMax = 0.001114130020141602; LogProcessCycleTimeMin = 0.0003030300140380859; LogProcessCycleTimeStd = 0.000355644468028205; LogProcessCycleTimeSum = 0.002448320388793945; SleepCycleTimeAvg = 5.005034774541855; SleepCycleTimeCount = 8.0; SleepCycleTimeMax = 5.006003141403198; SleepCycleTimeMin = 5.003670930862427; SleepCycleTimeStd = 0.0009332326927644647; SleepCycleTimeSum = 40.04027819633484; SubmitCycleTimeAvg = 0.01395360628763835; SubmitCycleTimeCount = 9.0; SubmitCycleTimeMax = 0.1255168914794922; SubmitCycleTimeMin = 5.960464477539062E-06; SubmitCycleTimeStd = 0.04183623199007371; SubmitCycleTimeSum = 0.1255824565887451; ]
+07/31/22 04:28:31 Currently monitoring 1 HTCondor log file(s)
+07/31/22 04:28:31 Event: ULOG_EXECUTE for HTCondor Node D (135.0.0) {07/31/22 04:28:26}
+07/31/22 04:28:31 Number of idle job procs: 3
+07/31/22 04:28:31 Event: ULOG_JOB_TERMINATED for HTCondor Node D (135.0.0) {07/31/22 04:28:27}
+07/31/22 04:28:31 Number of idle job procs: 3
+07/31/22 04:28:31 Node D job proc (135.0.0) failed with status 1.
+07/31/22 04:28:31 Event: ULOG_EXECUTE for HTCondor Node E (136.0.0) {07/31/22 04:28:29}
+07/31/22 04:28:31 Number of idle job procs: 2
+07/31/22 04:28:31 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/31/22 04:28:31 Of 7 nodes total:
+07/31/22 04:28:31  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/31/22 04:28:31   ===     ===      ===     ===     ===        ===      ===
+07/31/22 04:28:31     3       0        3       0       0          0        1
+07/31/22 04:28:31 0 job proc(s) currently held
+07/31/22 04:28:31 DAGMan Runtime Statistics: [ EventCycleTimeAvg = 0.01431165801154243; EventCycleTimeCount = 9.0; EventCycleTimeMax = 0.1257171630859375; EventCycleTimeMin = 1.9073486328125E-05; EventCycleTimeStd = 0.04177911812618806; EventCycleTimeSum = 0.1288049221038818; LogProcessCycleTimeAvg = 0.000574493408203125; LogProcessCycleTimeCount = 5.0; LogProcessCycleTimeMax = 0.001114130020141602; LogProcessCycleTimeMin = 0.0003030300140380859; LogProcessCycleTimeStd = 0.0003192585733813092; LogProcessCycleTimeSum = 0.002872467041015625; SleepCycleTimeAvg = 5.005086130566067; SleepCycleTimeCount = 9.0; SleepCycleTimeMax = 5.006003141403198; SleepCycleTimeMin = 5.003670930862427; SleepCycleTimeStd = 0.0008864506894152135; SleepCycleTimeSum = 45.0457751750946; SubmitCycleTimeAvg = 0.01255903244018555; SubmitCycleTimeCount = 10.0; SubmitCycleTimeMax = 0.1255168914794922; SubmitCycleTimeMin = 5.960464477539062E-06; SubmitCycleTimeStd = 0.03968934606059368; SubmitCycleTimeSum = 0.1255903244018555; ]
+07/31/22 04:28:36 Currently monitoring 1 HTCondor log file(s)
+07/31/22 04:28:36 Event: ULOG_JOB_TERMINATED for HTCondor Node E (136.0.0) {07/31/22 04:28:31}
+07/31/22 04:28:36 Number of idle job procs: 2
+07/31/22 04:28:36 Node E job proc (136.0.0) completed successfully.
+07/31/22 04:28:36 Node E job completed
+07/31/22 04:28:36 Event: ULOG_EXECUTE for HTCondor Node F (137.0.0) {07/31/22 04:28:33}
+07/31/22 04:28:36 Number of idle job procs: 1
+07/31/22 04:28:36 Event: ULOG_JOB_TERMINATED for HTCondor Node F (137.0.0) {07/31/22 04:28:35}
+07/31/22 04:28:36 Number of idle job procs: 1
+07/31/22 04:28:36 Node F job proc (137.0.0) completed successfully.
+07/31/22 04:28:36 Node F job completed
+07/31/22 04:28:36 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/31/22 04:28:36 Of 7 nodes total:
+07/31/22 04:28:36  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/31/22 04:28:36   ===     ===      ===     ===     ===        ===      ===
+07/31/22 04:28:36     5       0        1       0       0          0        1
+07/31/22 04:28:36 0 job proc(s) currently held
+07/31/22 04:28:36 DAGMan Runtime Statistics: [ EventCycleTimeAvg = 0.01296188831329346; EventCycleTimeCount = 10.0; EventCycleTimeMax = 0.1257171630859375; EventCycleTimeMin = 1.9073486328125E-05; EventCycleTimeStd = 0.03962031848638582; EventCycleTimeSum = 0.1296188831329346; LogProcessCycleTimeAvg = 0.0005667606989542643; LogProcessCycleTimeCount = 6.0; LogProcessCycleTimeMax = 0.001114130020141602; LogProcessCycleTimeMin = 0.0003030300140380859; LogProcessCycleTimeStd = 0.0002861810582410016; LogProcessCycleTimeSum = 0.003400564193725586; SleepCycleTimeAvg = 5.004770016670227; SleepCycleTimeCount = 10.0; SleepCycleTimeMax = 5.006003141403198; SleepCycleTimeMin = 5.001924991607666; SleepCycleTimeStd = 0.001302982823346648; SleepCycleTimeSum = 50.04770016670227; SubmitCycleTimeAvg = 0.0114180174740878; SubmitCycleTimeCount = 11.0; SubmitCycleTimeMax = 0.1255168914794922; SubmitCycleTimeMin = 5.960464477539062E-06; SubmitCycleTimeStd = 0.03784231544616762; SubmitCycleTimeSum = 0.1255981922149658; ]
+07/31/22 04:28:41 Currently monitoring 1 HTCondor log file(s)
+07/31/22 04:28:41 Event: ULOG_EXECUTE for HTCondor Node G (138.0.0) {07/31/22 04:28:38}
+07/31/22 04:28:41 Number of idle job procs: 0
+07/31/22 04:28:41 Event: ULOG_JOB_TERMINATED for HTCondor Node G (138.0.0) {07/31/22 04:28:40}
+07/31/22 04:28:41 Number of idle job procs: 0
+07/31/22 04:28:41 Node G job proc (138.0.0) failed with status 127.
+07/31/22 04:28:41 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/31/22 04:28:41 Of 7 nodes total:
+07/31/22 04:28:41  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/31/22 04:28:41   ===     ===      ===     ===     ===        ===      ===
+07/31/22 04:28:41     5       0        0       0       0          0        2
+07/31/22 04:28:41 0 job proc(s) currently held
+07/31/22 04:28:41 DAGMan Runtime Statistics: [ EventCycleTimeAvg = 0.01186262477527965; EventCycleTimeCount = 11.0; EventCycleTimeMax = 0.1257171630859375; EventCycleTimeMin = 1.9073486328125E-05; EventCycleTimeStd = 0.03776353872258867; EventCycleTimeSum = 0.1304888725280762; LogProcessCycleTimeAvg = 0.0005467959812709264; LogProcessCycleTimeCount = 7.0; LogProcessCycleTimeMax = 0.001114130020141602; LogProcessCycleTimeMin = 0.0003030300140380859; LogProcessCycleTimeStd = 0.0002665329149376813; LogProcessCycleTimeSum = 0.003827571868896484; SleepCycleTimeAvg = 5.006040919910777; SleepCycleTimeCount = 11.0; SleepCycleTimeMax = 5.018749952316284; SleepCycleTimeMin = 5.001924991607666; SleepCycleTimeStd = 0.004392622602772531; SleepCycleTimeSum = 55.06645011901855; SubmitCycleTimeAvg = 0.01046742995580037; SubmitCycleTimeCount = 12.0; SubmitCycleTimeMax = 0.1255168914794922; SubmitCycleTimeMin = 5.960464477539062E-06; SubmitCycleTimeStd = 0.03623118418061048; SubmitCycleTimeSum = 0.1256091594696045; ]
+07/31/22 04:28:41 ERROR: the following job(s) failed:
+07/31/22 04:28:41 ---------------------- Job ----------------------
+07/31/22 04:28:41       Node Name: D
+07/31/22 04:28:41            Noop: false
+07/31/22 04:28:41          NodeID: 3
+07/31/22 04:28:41     Node Status: STATUS_ERROR    
+07/31/22 04:28:41 Node return val: 1
+07/31/22 04:28:41           Error: Job proc (135.0.0) failed with status 1
+07/31/22 04:28:41 Job Submit File: nodo_3.condor
+07/31/22 04:28:41  HTCondor Job ID: (135.0.0)
+07/31/22 04:28:41 PARENTS:  WAITING: 0 CHILDREN: 
+07/31/22 04:28:41 ---------------------- Job ----------------------
+07/31/22 04:28:41       Node Name: G
+07/31/22 04:28:41            Noop: false
+07/31/22 04:28:41          NodeID: 6
+07/31/22 04:28:41     Node Status: STATUS_ERROR    
+07/31/22 04:28:41 Node return val: 127
+07/31/22 04:28:41           Error: Job proc (138.0.0) failed with status 127
+07/31/22 04:28:41 Job Submit File: nodo_6.condor
+07/31/22 04:28:41  HTCondor Job ID: (138.0.0)
+07/31/22 04:28:41 PARENTS:  WAITING: 0 CHILDREN: 
+07/31/22 04:28:41 ---------------------------------------	<END>
+07/31/22 04:28:41 Aborting DAG...
+07/31/22 04:28:41 Writing Rescue DAG to midagwork.condor_dag.rescue001...
+07/31/22 04:28:41 Removing submitted jobs...
+07/31/22 04:28:41 Removing any/all submitted HTCondor jobs...
+07/31/22 04:28:41 Running: /usr/bin/condor_rm -const DAGManJobId==131
+07/31/22 04:28:41 Note: 0 total job deferrals because of -MaxJobs limit (0)
+07/31/22 04:28:41 Note: 0 total job deferrals because of -MaxIdle limit (1000)
+07/31/22 04:28:41 Note: 0 total job deferrals because of node category throttles
+07/31/22 04:28:41 Note: 0 total PRE script deferrals because of -MaxPre limit (20) or DEFER
+07/31/22 04:28:41 Note: 0 total POST script deferrals because of -MaxPost limit (20) or DEFER
+07/31/22 04:28:41 Note: 0 total HOLD script deferrals because of -MaxHold limit (20) or DEFER
+07/31/22 04:28:41 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+07/31/22 04:28:41 Of 7 nodes total:
+07/31/22 04:28:41  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+07/31/22 04:28:41   ===     ===      ===     ===     ===        ===      ===
+07/31/22 04:28:41     5       0        0       0       0          0        2
+07/31/22 04:28:41 0 job proc(s) currently held
+07/31/22 04:28:41 DAGMan Runtime Statistics: [ EventCycleTimeAvg = 0.01186262477527965; EventCycleTimeCount = 11.0; EventCycleTimeMax = 0.1257171630859375; EventCycleTimeMin = 1.9073486328125E-05; EventCycleTimeStd = 0.03776353872258867; EventCycleTimeSum = 0.1304888725280762; LogProcessCycleTimeAvg = 0.0005467959812709264; LogProcessCycleTimeCount = 7.0; LogProcessCycleTimeMax = 0.001114130020141602; LogProcessCycleTimeMin = 0.0003030300140380859; LogProcessCycleTimeStd = 0.0002665329149376813; LogProcessCycleTimeSum = 0.003827571868896484; SleepCycleTimeAvg = 5.006040919910777; SleepCycleTimeCount = 11.0; SleepCycleTimeMax = 5.018749952316284; SleepCycleTimeMin = 5.001924991607666; SleepCycleTimeStd = 0.004392622602772531; SleepCycleTimeSum = 55.06645011901855; SubmitCycleTimeAvg = 0.01046742995580037; SubmitCycleTimeCount = 12.0; SubmitCycleTimeMax = 0.1255168914794922; SubmitCycleTimeMin = 5.960464477539062E-06; SubmitCycleTimeStd = 0.03623118418061048; SubmitCycleTimeSum = 0.1256091594696045; ]
+07/31/22 04:28:41 Wrote metrics file midagwork.condor_dag.metrics.
+07/31/22 04:28:41 DAGMan Runtime Statistics: [ EventCycleTimeAvg = 0.01186262477527965; EventCycleTimeCount = 11.0; EventCycleTimeMax = 0.1257171630859375; EventCycleTimeMin = 1.9073486328125E-05; EventCycleTimeStd = 0.03776353872258867; EventCycleTimeSum = 0.1304888725280762; LogProcessCycleTimeAvg = 0.0005467959812709264; LogProcessCycleTimeCount = 7.0; LogProcessCycleTimeMax = 0.001114130020141602; LogProcessCycleTimeMin = 0.0003030300140380859; LogProcessCycleTimeStd = 0.0002665329149376813; LogProcessCycleTimeSum = 0.003827571868896484; SleepCycleTimeAvg = 5.006040919910777; SleepCycleTimeCount = 11.0; SleepCycleTimeMax = 5.018749952316284; SleepCycleTimeMin = 5.001924991607666; SleepCycleTimeStd = 0.004392622602772531; SleepCycleTimeSum = 55.06645011901855; SubmitCycleTimeAvg = 0.01046742995580037; SubmitCycleTimeCount = 12.0; SubmitCycleTimeMax = 0.1255168914794922; SubmitCycleTimeMin = 5.960464477539062E-06; SubmitCycleTimeStd = 0.03623118418061048; SubmitCycleTimeSum = 0.1256091594696045; ]
+07/31/22 04:28:41 **** condor_scheduniv_exec.131.0 (condor_DAGMAN) pid 90 EXITING WITH STATUS 1

@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+wget -O datos-adultos-us.csv http://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data

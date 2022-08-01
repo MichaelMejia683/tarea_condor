@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+PERSONAS_TOTAL=$(wc -l datos-adultos-us.csv)
+PERSONAS_MALE_WHITE=$(grep "White" datos-adultos-us.csv | grep "Male" | wc -l)
+PERSONAS_MALE_BLACK=$(grep "Black" datos-adultos-us.csv | grep "Male" | wc -l)
+printf "Promedio de edades: " > reporte_3.txt
+awk '{n += $1};{e=n/'$PERSONAS_TOTAL'} END{print e}' datos-adultos-us.csv >> reporte_3.txt
+printf "Reporte de personas afrodecendientes femeninas que ganan >50K y son esposas: " >> reporte_3.txt
+grep "Black" datos-adultos-us.csv | grep "Female" | grep ">50K" | grep "Wife" | wc -l >> reporte_3.txt
+printf "Reporte del promedio de horas laboradas por semana por razas masculinas: " >> reporte_3.txt
+printf " Personas Blancas: " >> reporte_3.txt
+grep "White" datos-adultos-us.csv | grep "Male" | awk '{n+=$13};{e=n/'$PERSONAS_MALE_WHITE'} END{print e}' >> reporte_3.txt
+printf "Personas Negras: " >> reporte_3.txt
+grep "Black" datos-adultos-us.csv | grep "Male" | awk '{n+=$13};{e=n/'$PERSONAS_MALE_BLACK'} END{print e}' >> reporte_3.txt
+
+
+
